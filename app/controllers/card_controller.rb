@@ -1,5 +1,4 @@
 class CardController < ApplicationController
-  # destroyアクションを追加する
   before_action :set_card, only: %i(show edit update destroy)
 
   def new
@@ -20,6 +19,7 @@ class CardController < ApplicationController
   end
 
   def edit
+    @lists = List.where(user: current_user)
   end
 
   def update
@@ -34,7 +34,7 @@ class CardController < ApplicationController
     @card.destroy
     redirect_to :root
   end
-  
+
   private
     def card_params
       params.require(:card).permit(:title, :memo, :list_id)
