@@ -1,7 +1,7 @@
 README.md
 
 ![KANBN](https://media.giphy.com/media/7A1NfPDwFyjlZP0CsG/giphy.gif)
-<h1 align="center">LINE BOT</h1>
+<h1 align="center">ToDoタスク管理アプリ</h1>
 
 
 ## 🔍・本番環境
