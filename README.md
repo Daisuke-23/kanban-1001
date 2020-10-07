@@ -30,7 +30,7 @@ Trelloを参考にして開発し、Trelloのカードと呼ばれる付箋み�
 <p align="center">
   <a href="Rubyロゴ"><img src="https://github.com/Daisuke-23/line-bot/blob/master/%E3%82%BF%E3%82%99%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%88%E3%82%99.png" height="100px；" /></a>
   <a href="Railsロゴ"><img src="https://github.com/Daisuke-23/line-bot/blob/master/rails.png" height="100px;" /></a>
-  <a href="LINEロゴ"><img src="https://github.com/Daisuke-23/line-bot/blob/master/line_icon_200_v3.jpg" height="100px；" /></a>
+  <a href="LINEロゴ"><img src="https://github.com/Daisuke-23/kanban-1001/blob/master/javascript-1.svg" height="100px；" /></a>
 </p>
 
 
