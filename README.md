@@ -23,15 +23,14 @@ HTML・CSS・Javascript・Rubyを使用して開発し、主にRuby on Railsの�
 Trelloを参考にして開発し、Trelloのカードと呼ばれる付箋みたいなものを動かしながらタスクを視覚的に管理できるように致しました。
 
 ## 🔍工夫したポイント
-・
-・
-・
+・ユーザーの情報とリストの情報の関係を工夫してDB設計を致しました。「リストの情報・カードの情報」など全ての情報の関係性を考え、全ての情報をの関係を洗い出したら、テーブル設計を行いました。
+テーブル設計で、例えばusersテーブルとlistsテーブルにはどういった関係があるか設計することで、後に変更があった場合も対応できる冗長性・拡張性を考慮出来るよう作成致しました。
 
 ## 🔍使用技術(開発環境)
 <p align="center">
-  <a href="LINEロゴ"><img src="https://github.com/Daisuke-23/line-bot/blob/master/line_icon_200_v3.jpg" height="100px；" /></a>
   <a href="Rubyロゴ"><img src="https://github.com/Daisuke-23/line-bot/blob/master/%E3%82%BF%E3%82%99%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%88%E3%82%99.png" height="100px；" /></a>
   <a href="Railsロゴ"><img src="https://github.com/Daisuke-23/line-bot/blob/master/rails.png" height="100px;" /></a>
+  <a href="LINEロゴ"><img src="https://github.com/Daisuke-23/line-bot/blob/master/line_icon_200_v3.jpg" height="100px；" /></a>
 </p>
 
 
