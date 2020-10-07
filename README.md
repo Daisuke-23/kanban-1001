@@ -6,25 +6,26 @@ README.md
 
 ## 🔍・本番環境
 ログインURL:https://kanban1001.herokuapp.com/users/sign_in
-・Eメール:test@i.softbank.jp
-・パスワード:P77777
-
-<p align="center">
-  <a href="LINEロゴ"><img src="https://github.com/Daisuke-23/line-bot/blob/master/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-10-07%2016.52.10.png" height="200px；" /></a></p>
+・Eメール:test@i.softbank.jp<br>
+・パスワード:P77777<br>
 
 ## 🔍概要
-・LineのMessage APIを使用<br>
-・メッセージを送信すると今日、明日の天気を教えてくれる。<br>
-・天気の情報はdrk7.jp(Japan Weather Forecast xml)を使用
+・Deviseを使ったサインアップ・サインイン機能の開発<br>
+・リストやカードを作成する機能の開発<br>
+・リストを編集、削除する機能の開発<br>
+・リスト詳細機能の開発<br>
+・カードを移動する実装<br>
+・Herokuを使ってWebアプリケーションを公開<br>
+
 
 ## 🔍制作背景(意図)
-雨が降るかどうか確認するためだけに毎朝天気予報などを見るのが面倒で、LINEで確認出来たら便利だな！と思い付き作成致しました。
-またLINEは誰もがインストールしているツールなので、LINE botを友達追加するだけで気軽に使ってもらう事が出来ます。<br>
+HTML・CSS・Javascript・Rubyを使用して開発し、主にRuby on Railsの大まかな流れを把握する事を目標と板しました。
+Trelloを参考にして開発し、Trelloのカードと呼ばれる付箋みたいなものを動かしながらタスクを視覚的に管理できるように致しました。
 
 ## 🔍工夫したポイント
-・天気情報は、drk7.jpで提供していただいている、Japan Weather Forecast xmlファイルを使用させていただきました。<br>
-・当日の東京エリアの降水確率（6〜12時、12〜18時、18〜24時）のどれか１つが20%以上であった場合にメッセージを送信しています。<br>
-・ifの条件式の中で降水確率によって送信されるメッセージを変更しています。
+・
+・
+・
 
 ## 🔍使用技術(開発環境)
 <p align="center">
